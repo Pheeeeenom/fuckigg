@@ -25,7 +25,18 @@ namespace WindowsFormsApp1
 
             if (result == DialogResult.OK)
             {
-                
+
+                string unityDirectory = Path.GetDirectoryName(openFileDialog.FileName);
+                string[] file = Directory.GetFiles(unityDirectory, "UnityPlayer.dll");
+                if (file[0]!= null)
+                {
+                    string[] unityAssets = Directory.GetFiles(unityDirectory,"sharedassets0.assets", SearchOption.AllDirectories);
+                    
+                    //clear memory here
+                    
+                     
+                }
+
                 byte[] magic = { 0x49, 0x47, 0x47, 0x2D };
                 byte[] temp = new byte[4];
                 byte[] zero =  {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
