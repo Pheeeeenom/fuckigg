@@ -8,3 +8,13 @@ c:\users\mena\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\fuckIGG.p
 c:\users\mena\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fuckIGG.Properties.Resources.resources
 c:\users\mena\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fuckIGG.exe
 c:\users\mena\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\fuckIGG.pdb
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\bin\Debug\fuckIGG.exe.config
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\bin\Debug\fuckIGG.exe
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\bin\Debug\fuckIGG.pdb
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\fuckIGG.Properties.Resources.resources
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\fuckIGG.exe
+D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\fuckIGG.pdb
