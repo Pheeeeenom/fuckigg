@@ -43,16 +43,16 @@ namespace WindowsFormsApp1
                     string[] gamesList = new string[] { "PMS_Build", "Tube Tycoon" };
                     string[] unityAssets = Directory.GetFiles(unityDirectory, "sharedassets0.assets", SearchOption.AllDirectories);
                     BinaryWriter ubw = new BinaryWriter(File.Open(unityAssets[0], FileMode.Open));
-                    foreach (string x in gamesList)
+                    foreach (string game in gamesList)
                     {                       
-                        switch (x) {
+                        switch (game) {
                             case "PMS_Build":
-                                if (!openFileDialog.FileName.Contains(x)) break; 
+                                if (!openFileDialog.FileName.Contains(game)) break; 
                                 ubw.Seek(0x17BC0, SeekOrigin.Begin);
                                 ubw.Write(zero);
                                 break;
                             case "Tube Tycoon":
-                                if (!openFileDialog.FileName.Contains(x)) break;
+                                if (!openFileDialog.FileName.Contains(game)) break;
                                 byte[] b = {0x00, 0x00};                                
                                 ubw.Seek(0x21A0+8,SeekOrigin.Begin);
                                 ubw.Write(b);
