@@ -33,29 +33,33 @@ namespace WindowsFormsApp1
                 string[] unityCheck = Directory.GetFiles(unityDirectory, "UnityPlayer.dll");
                 string[] garbrage = Directory.GetFiles(unityDirectory);
                 foreach (string file in garbrage) {
-                    if (file.Contains("IGG")) {
+                    if (file.Contains("IGG")) {                     
                         File.Delete(file);
                     }         
                 }
 
                 if (unityCheck[0]!= null)
                 {
-                    string[] gamesList = { "PMS_Build" };
+                    string[] gamesList = new string[] { "PMS_Build", "Tube Tycoon" };
                     string[] unityAssets = Directory.GetFiles(unityDirectory, "sharedassets0.assets", SearchOption.AllDirectories);
-
                     BinaryWriter ubw = new BinaryWriter(File.Open(unityAssets[0], FileMode.Open));
-                    
                     foreach (string x in gamesList)
-                    {
-                        if (!openFileDialog.FileName.Contains(x)) return;
+                    {                       
                         switch (x) {
-                            case "PMS_Build":                                
+                            case "PMS_Build":
+                                if (!openFileDialog.FileName.Contains(x)) break; 
                                 ubw.Seek(0x17BC0, SeekOrigin.Begin);
                                 ubw.Write(zero);
-                                ubw.Dispose();
                                 break;
-                        }
-                    }            
+                            case "Tube Tycoon":
+                                if (!openFileDialog.FileName.Contains(x)) break;
+                                byte[] b = {0x00, 0x00};                                
+                                ubw.Seek(0x21A0+8,SeekOrigin.Begin);
+                                ubw.Write(b);
+                                break;                            
+                        }                       
+                    }                    
+                    ubw.Dispose();
                 }
 
                 byte[] magic = { 0x49, 0x47, 0x47, 0x2D };
