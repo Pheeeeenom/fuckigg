@@ -22,6 +22,8 @@ namespace WindowsFormsApp1
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "|*.exe";
             DialogResult result = openFileDialog.ShowDialog();
+            byte[] zero =  {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+                0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
             if (result == DialogResult.OK)
             {
@@ -30,19 +32,29 @@ namespace WindowsFormsApp1
                 string[] file = Directory.GetFiles(unityDirectory, "UnityPlayer.dll");
                 if (file[0]!= null)
                 {
-                    string[] unityAssets = Directory.GetFiles(unityDirectory,"sharedassets0.assets", SearchOption.AllDirectories);
+                    string[] gamesList = { "PMS_Build" };
+                    string[] unityAssets = Directory.GetFiles(unityDirectory, "sharedassets0.assets", SearchOption.AllDirectories);
+
+                    BinaryWriter ubw = new BinaryWriter(File.Open(unityAssets[0], FileMode.Open));
                     
-                    //clear memory here
-                    
-                     
+                    foreach (string x in gamesList)
+                    {
+                        if (!openFileDialog.FileName.Contains(x)) return;
+                        switch (x) {
+                            case "PMS_Build":                                
+                                ubw.Seek(0x17BC0, SeekOrigin.Begin);
+                                ubw.Write(zero);
+                                ubw.Dispose();
+                                break;
+                        }
+                    }            
                 }
 
                 byte[] magic = { 0x49, 0x47, 0x47, 0x2D };
                 byte[] temp = new byte[4];
-                byte[] zero =  {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-                0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+                
 
-                FileStream fs = new FileStream(openFileDialog.FileName,FileMode.OpenOrCreate);
+                FileStream fs = new FileStream(openFileDialog.FileName, FileMode.OpenOrCreate);
                 BinaryWriter bw = new BinaryWriter(fs);
                 bool a;
                 while (fs.Read(temp, 0, temp.Length) > 0)
