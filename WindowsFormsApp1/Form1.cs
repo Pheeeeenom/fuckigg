@@ -27,10 +27,18 @@ namespace WindowsFormsApp1
 
             if (result == DialogResult.OK)
             {
+                
 
                 string unityDirectory = Path.GetDirectoryName(openFileDialog.FileName);
-                string[] file = Directory.GetFiles(unityDirectory, "UnityPlayer.dll");
-                if (file[0]!= null)
+                string[] unityCheck = Directory.GetFiles(unityDirectory, "UnityPlayer.dll");
+                string[] garbrage = Directory.GetFiles(unityDirectory);
+                foreach (string file in garbrage) {
+                    if (file.Contains("IGG")) {
+                        File.Delete(file);
+                    }         
+                }
+
+                if (unityCheck[0]!= null)
                 {
                     string[] gamesList = { "PMS_Build" };
                     string[] unityAssets = Directory.GetFiles(unityDirectory, "sharedassets0.assets", SearchOption.AllDirectories);
