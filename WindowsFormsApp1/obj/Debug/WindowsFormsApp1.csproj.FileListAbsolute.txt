@@ -18,3 +18,18 @@ D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\fuckIGG.exe
 D:\PROJECTS\Contrib Git\IGG\fuckigg\WindowsFormsApp1\obj\Debug\fuckIGG.pdb
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.exe.config
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.exe
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.pdb
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\Magick.NET-Q8-AnyCPU.xml
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.Properties.Resources.resources
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.exe
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.pdb
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\Nvidia.TextureTools.dll
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\PVRTexLibNET.dll
+C:\Users\Mena\Desktop\project\fuckigg-master\WindowsFormsApp1\bin\Debug\ATI.TextureConverter.dll
