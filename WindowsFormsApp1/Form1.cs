@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
                     }
                 }
 
-                if (unityCheck[0] != null)
+                if (!(unityCheck != null && unityCheck.Length >= 0))
                 {
                     string[] gamesList = new string[] { "PMS_Build", "Tube Tycoon" };
                     string[] unityAssets = Directory.GetFiles(unityDirectory, "sharedassets0.assets", SearchOption.AllDirectories);
