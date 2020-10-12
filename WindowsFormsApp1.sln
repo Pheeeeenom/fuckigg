@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{5108E951-3258-4887-862B-7BDF3D4DC24A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUCK-IGG", "WindowsFormsApp1\FUCK-IGG.csproj", "{5108E951-3258-4887-862B-7BDF3D4DC24A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
