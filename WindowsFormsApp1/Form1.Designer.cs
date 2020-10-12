@@ -28,17 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn = new System.Windows.Forms.Button();
-            this.btnTEXToPNG = new System.Windows.Forms.Button();
-            this.btnPNGtoTEX = new System.Windows.Forms.Button();
-            this.btnRepac39gk = new System.Windows.Forms.Button();
-            this.btnUnpack = new System.Windows.Forms.Button();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn
             // 
-            this.btn.Location = new System.Drawing.Point(284, 259);
+            this.btn.Location = new System.Drawing.Point(147, 259);
             this.btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(115, 50);
@@ -47,72 +44,43 @@
             this.btn.UseVisualStyleBackColor = true;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btnTEXToPNG
+            // txtName
             // 
-            this.btnTEXToPNG.Location = new System.Drawing.Point(13, 257);
-            this.btnTEXToPNG.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTEXToPNG.Name = "btnTEXToPNG";
-            this.btnTEXToPNG.Size = new System.Drawing.Size(119, 50);
-            this.btnTEXToPNG.TabIndex = 1;
-            this.btnTEXToPNG.Text = ".TEX to .PNG";
-            this.btnTEXToPNG.UseVisualStyleBackColor = true;
-            this.btnTEXToPNG.Click += new System.EventHandler(this.btnTEXToPNG_Click);
+            this.txtName.Location = new System.Drawing.Point(125, 34);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(109, 22);
+            this.txtName.TabIndex = 1;
             // 
-            // btnPNGtoTEX
+            // lblName
             // 
-            this.btnPNGtoTEX.Location = new System.Drawing.Point(13, 199);
-            this.btnPNGtoTEX.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPNGtoTEX.Name = "btnPNGtoTEX";
-            this.btnPNGtoTEX.Size = new System.Drawing.Size(119, 50);
-            this.btnPNGtoTEX.TabIndex = 2;
-            this.btnPNGtoTEX.Text = ".PNG to .Tex";
-            this.btnPNGtoTEX.UseVisualStyleBackColor = true;
-            this.btnPNGtoTEX.Click += new System.EventHandler(this.btnPNGtoTEX_Click);
-            // 
-            // btnRepac39gk
-            // 
-            this.btnRepac39gk.Location = new System.Drawing.Point(13, 138);
-            this.btnRepac39gk.Name = "btnRepac39gk";
-            this.btnRepac39gk.Size = new System.Drawing.Size(119, 54);
-            this.btnRepac39gk.TabIndex = 3;
-            this.btnRepac39gk.Text = "Repack";
-            this.btnRepac39gk.UseVisualStyleBackColor = true;
-            // 
-            // btnUnpack
-            // 
-            this.btnUnpack.Location = new System.Drawing.Point(12, 78);
-            this.btnUnpack.Name = "btnUnpack";
-            this.btnUnpack.Size = new System.Drawing.Size(119, 54);
-            this.btnUnpack.TabIndex = 4;
-            this.btnUnpack.Text = "Unpack";
-            this.btnUnpack.UseVisualStyleBackColor = true;
-            this.btnUnpack.Click += new System.EventHandler(this.btnUnpack_Click);
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(16, 34);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(103, 17);
+            this.lblName.TabIndex = 2;
+            this.lblName.Text = "Name of Game";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(411, 320);
-            this.Controls.Add(this.btnUnpack);
-            this.Controls.Add(this.btnRepac39gk);
-            this.Controls.Add(this.btnPNGtoTEX);
-            this.Controls.Add(this.btnTEXToPNG);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.btn);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "STERILIZE ME";
+            this.Text = "FUCK-IGG";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.Button btnTEXToPNG;
-        private System.Windows.Forms.Button btnPNGtoTEX;
-        private System.Windows.Forms.Button btnRepac39gk;
-        private System.Windows.Forms.Button btnUnpack;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblName;
     }
 }
 
