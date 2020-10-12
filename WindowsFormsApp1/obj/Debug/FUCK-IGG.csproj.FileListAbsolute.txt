@@ -1,0 +1,13 @@
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.exe.config
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.exe
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\bin\Debug\fuckIGG.pdb
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\FUCK-IGG.csprojAssemblyReference.cache
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.Properties.Resources.resources
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\FUCK-IGG.csproj.GenerateResource.cache
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\FUCK-IGG.csproj.CoreCompileInputs.cache
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\FUCK-IGG.csproj.CopyComplete
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.exe
+C:\Users\Mena\Desktop\fuckigg-master\WindowsFormsApp1\obj\Debug\fuckIGG.pdb
