@@ -1,0 +1,20 @@
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\Fuck IGG.exe.config
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\Fuck IGG.exe
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\Fuck IGG.pdb
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\FluentWPF.dll
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.csprojAssemblyReference.cache
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\MainWindow.g.cs
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\App.g.cs
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG_MarkupCompile.cache
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG_MarkupCompile.lref
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\App.baml
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\MainWindow.baml
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.g.resources
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck_IGG.Properties.Resources.resources
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.csproj.GenerateResource.cache
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.csproj.CoreCompileInputs.cache
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.csproj.CopyComplete
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.exe
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\obj\Debug\Fuck IGG.pdb
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\uplus\Documents\GitHub\Fuck IGG\Fuck IGG\bin\Debug\Newtonsoft.Json.xml
