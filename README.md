@@ -1,5 +1,5 @@
-# fuckigg
+# Fuck-IGG
 
-Revamped. Allows entries through JSON. Community can add entries for games they wish to support. Feel free to request too.
+Fully re-written in WPF, using Fluent Design. The app can now pull a list of the patches directly from GitHub. Also, all patches are generated as user-controls on the UI, so no more typing in the exact name. You just click the game, browse for the executable, and click done! Simple as that.
 
-https://puu.sh/GC89g/2cd7bfd234.mp4
+![Screenshot](https://i.imgur.com/PQM6p9b.png)
