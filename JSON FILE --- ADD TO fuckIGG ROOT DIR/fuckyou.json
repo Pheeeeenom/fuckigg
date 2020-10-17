@@ -1,7 +1,0 @@
-{
-  "Moekuri: Adorable + Tactical SRPG": {
-    "Exec_name": "moekurii.exe",
-    "Offset": "0x2B9",
-    "Patches": "0x3A"
-  }
-}

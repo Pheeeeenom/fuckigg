@@ -23,7 +23,7 @@ namespace Fuck_IGG {
     public partial class MainWindow {
 
         public JObject gamesObject = new JObject();
-        private string PatchesUrl = "https://raw.githubusercontent.com/Pheeeeenom/fuckigg/master/JSON%20FILE%20---%20ADD%20TO%20fuckIGG%20ROOT%20DIR/fuckyou.json";
+        private string PatchesUrl = "https://raw.githubusercontent.com/uplusion23/fuckigg/master/database/patches.json";
         public MainWindow() {
             InitializeComponent();
             string patches;
